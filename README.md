@@ -128,21 +128,11 @@ There are lots of ways we might use real time rendering in TouchDesigner - from 
 
 Learn more at [TouchDesigner Basic Render Setup](https://learn.derivative.ca/courses/100-fundamentals/lessons/104-sops-rendering-3d-scenes/topic/basic-render-setup/)
 
-## Custom Pars & Outputs
+## UIs, Custom Pars & Outputs
 
 Custom parameters are an essential part of the modern TouchDesigner workflow. This feature makes it easy for us to create custom components that have their own controls without needing to build complete UIs. They also allow for a streamlined approach to creating sharable and reusable elements inside of TouchDesigner. In this section we’ll look at how to get started with using custom components.
 
-We’ll also look at how we can output the image and video contents of our network to Window COMP. This is how we can display content on another screen, projector, or other output device.
-
----
-
-# Workshop Day 2
-
-An overview of what we'll cover on Day 2
-
 ## I/O With Touch OSC
-
-### Getting Started
 
 Building interfaces for your projects is no small feat and there are lots of ways to approach this challenge. While TouchDesigner itself has a built-in UI system it's often helpful to separate your UI schema from your project. You might create a web interface with something like tools like:
 
@@ -167,15 +157,9 @@ Any of the solutions above will help you create an interface that's on a differe
 
 learn more at the official page for  [OSC]
 
-## Instancing and Point Clouds
+**Networking Messaging**
 
-When you're first getting started with instances it's easy to quickly feel like you've reached the limit of what you can create. As we start to explore some intermediate and advanced techniques for instancing there are more features of the `Geo COMP` we can use. We'll start by taking a closer look at how to work with many more instances by doing the computation for their movement in TOPs.
-
-![image](readme-assets/day2/distruption-fields-01.png)
-
-Manipulating point clouds often means thinking about your points spatially. We'll explore how we can use some simple tricks with a bit of math to calculate distance, create bounding fields where we can manipulate our points, and how some of the secrets of the Point Transform TOP.
-
-![image](readme-assets/day2/distruption-fields-02.png)
+*If you're collaborating with another artist, it can often be beneficial to use network messages to synchronize your applications. For example, if one creator is focused on audio you can still receive messages over the network to control the visual elements you've created in TouchDesigner. The same techniques we've explored using OSC messages from a control surface can also be used when sending control messages from another computer or application.*
 
 ### Reference TOE file
 
@@ -190,62 +174,6 @@ In the reference `TOE` file you'll find examples on doing the following in TOPs:
 
 ![image](readme-assets/day2/reference-toe-screenshot1.png)
 
-## Audio Reactive Visuals
-
-There are lots of ways to add interactive elements to your projects, and it's not uncommon to want to make your project react to audio.
-
-### Palette Tools | `audioAnalysis`
-
-While we certainly could create our own audio analysis tool in TouchDesigner, we can also take advantage of an existing component in the palette called [audioAnalysis]. The audioAnalysis COMP takes an audio feed as an input and outputs several channels we can use to control our networks.
-
-We’ll use the audioAnalysis COMP to build responsive and reactive behaviors that will animate our render network. We’ll build on what we learned on day 1 about rendering, and the techniques we’ve explored for using instances in our render networks.
-
-![image](readme-assets/day2/audio-reactivity-01.png)
-
-### Alternatives to TouchDesigner Audio Analysis
-
-While it's often tempting to do everything you can in a single application, it can also be beneficial to break up the work across multiple applications.
-
-#### TDAbleton
-
-Depending on the type of audio integration you're looking for you may consider [TDAbleton] for achieving some of the audio interactivity you're after. The TDAbleton package can make integration with your Ableton set much easier, especially if you're focused on audio first.
-
-#### PD or MaxMSP
-
-Other node based programming environments that allow for signal processing include [MaxMSP] and [Pure Data]. Some artist / engineers preferer to do do their audio analysis in one of these applications and then send the results to TouchDesigner via OSC or UDP Messaging. This alternative can ensure that audio analysis is a separate concern and runs in another thread - which may help improve your application optimization.
-
-**Networking messaging**
-
-*If you're collaborating with another artist, it can often be beneficial to use network messages to synchronize your applications. For example, if one creator is focused on audio you can still receive messages over the network to control the visual elements you've created in TouchDesigner. The same techniques we've explored using OSC messages from a control surface can also be used when sending control messages from another computer or application.*
-
-## Pressure Project
-
-Pressure what now?
-
-The intention of a pressure project is tackle a challenge or prompt in a short period of time. In this case the "pressure" in the project is only because it's intended to be a fast sketch as a way to explore and experiment - not something that needs to be polished or perfect. Our pressure project is going to combine the skills we've learned over the past two days - you're welcome to borrow any of the techniques we've explored or code we've written together. You're also encouraged to experiment and explore ideas that may have been percolating over the course of the workshop. Both of the instructors will be circulating during your worktime, so feel free to ask for help if you get stuck.
-
-**Code is only efficient or inefficient**  
-*As much as it'd be great if there was a single "right" way to solve a problem or achieve an outcome, programming is mostly about efficiency. There's not wrong way to solve a problem in TouchDesigner - it might be more efficient to use one technique over another, but it's important to explore and try different techniques. Don't be afraid to explore an idea just because it might slow down your computer.*
-
-### Prompt
-
-Using the techniques we've explored during the workshop, create a component that responds to the prompt:
-
-* *a love letter to a place you've never been before*  
-
-OR  
-
-* *a love letter to a place you can longer return to*
-
-Project requirements:
-
-* Encapsulated in a `base`
-* Use Custom Parameters
-* Use an `in` and `out` to move textures or other elements into your component
-
-### Time
-
-You'll have about 30 minutes to complete your pressure project. After 30 minutes you'll walk through the room to see what other participants have created.
 
 ## Packaging
 
