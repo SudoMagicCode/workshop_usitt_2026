@@ -32,6 +32,10 @@ Business Cards – the best resources you’ll find at any workshop will be the 
 
 Take a look at some of the projects featured on the [Derivative Blog] to see what people are making and doing with TouchDesigner.
 
+## Additional Prep
+
+We'll be using [TouchOSC]. Make sure you download and install this application - we'll only be working locally, so you only need to install it on your laptop. While there is a paid version of this app, we will only be using the features in the free version for the workshop.
+
 ## Workshop summary
 
 ## Schedule
@@ -53,15 +57,11 @@ Take a look at some of the projects featured on the [Derivative Blog] to see wha
 
 ---
 
-# Workshop Day 1
+# Workshop Overview
 
-On our first day we'll focus on the basics. We'll start with a quick round of introductions and then dive into working with TouchDesigner. We'll start by looking at the user interface, and learning about the different operator families. We'll then get started right away by setting up a render network, and working with post processing effects. There are lots of ways we can manipulate video in TouchDesigner, and getting a firm handle on what image manipulation looks like will set us up for working with camera effects in the late afternoon. We'll warp the day by looking at creating custom parameters and outputting our content to another window or another screen.
+To get started, we'll look at some examples of projects that use TouchDesigner and what kind of work is possible with this tool. Then we'll focus on the basics of working with TouchDesigner: navigating the environment, the user interface, and learning about the different operator families. Then we'll jump into the world of TOPs (Texture Operators) and look at ways that we can manipulate images, video, and live inputs like a webcam. Once we've got a firm grasp of image manipulation, we'll move on to working with POP (Point Operators), which are the newest operator family.
 
-During the workshop we'll create everything together so you have the hands on experience of building networks yourself. While that's great for working in the moment, sometimes you want (or need) an extra reference. The workshop repo also contains a file that's the end of day file - this contains all of the exercises we've gone over together in the workshop. This can be helpful as a reference, but also if you get stuck and need to compare you work to an example.
-
-## Prep
-
-On Day 2 we'll be using [TouchOSC]. Make sure you download and install this application before tomorrow - we'll only be working locally, so you only need to install it on your laptop. While there is a paid version of this app, we will only be using the features in the free version for the workshop.
+During the workshop we'll create everything together so you have the hands on experience of building networks yourself. While that's great for working in the moment, sometimes you want (or need) an extra reference. This workshop repo contains all of the exercises we've gone over together in the workshop. This can be helpful as a reference, but also if you get stuck and need to compare you work to an example.
 
 ![image](readme-assets/day1/env-nav-01.png)
 
