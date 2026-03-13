@@ -40,7 +40,6 @@ We'll be using [TouchOSC]. Make sure you download and install this application -
 
 ## Schedule
 
-### Wednesday
 
 | Time     | Topic     |
 | ---      | :---      |
