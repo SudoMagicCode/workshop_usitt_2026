@@ -162,20 +162,6 @@ learn more at the official page for  [OSC]
 
 *If you're collaborating with another artist, it can often be beneficial to use network messages to synchronize your applications. For example, if one creator is focused on audio you can still receive messages over the network to control the visual elements you've created in TouchDesigner. The same techniques we've explored using OSC messages from a control surface can also be used when sending control messages from another computer or application.*
 
-### Reference TOE file
-
-In the reference `TOE` file you'll find examples on doing the following in TOPs:
-
-* computing distance
-* computing rotation
-* benefits of using square textures for point clouds
-* converting lat long coords to xyz coords
-* loading a point file in TOP with a CSV
-* SDF examples
-
-![image](readme-assets/day2/reference-toe-screenshot1.png)
-
-
 ## Packaging
 
 Unfortunately we can’t build complete EXEs with TouchDesigner, but we can build components to share called TOX files, and we can embed files in project file (our TOE). Here we’ll look at a few of the techniques you might use when packaging up your project file either to share or save as a TOX or to build a TOE file that holds all of the assets your project needs to move to another computer.
