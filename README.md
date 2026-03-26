@@ -47,10 +47,11 @@ We'll be using [TouchOSC]. Make sure you download and install this application -
 | 10:15 AM | What is TouchDesigner? Project Examples |
 | 10:30 AM | Navigating the Environment & OP Families |
 | 11:30 AM | Working with TOPs & Video Effects |
-| 12:30 PM | Working with POPs & Realtime Rendering |
+| 12:30 PM | Working with POPs & Particles |
 | 1:00 PM  | Lunch     |
 | 2:00 PM  | Post Processing & Feedback |
-| 3:00 PM  | Working with Point Clouds |
+| 2:30 PM  | Working with the Scene Builder |
+| 3:00 PM  | Projection Mapping Workflows |
 | 4:00 PM  | Custom Parameter UI Building & TouchOSC |
 | 5:00 PM  | Wrap      |
 
